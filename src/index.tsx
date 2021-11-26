@@ -180,6 +180,9 @@ router.get("/overlay/:name/:season", async (ctx, next) => {
     <html lang="ja">
       <head>
         <meta charSet="UTF-8" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin={"anonymous"} />
+        <link href="https://fonts.googleapis.com/css2?family=Zen+Antique&display=swap" rel="stylesheet"/>
         <link rel="stylesheet" href="/static/style.css" />
         <title>{name} | MK8DX-Lounge.OBS-Overlay</title>
         <meta name="twitter:card" content="summary" />
