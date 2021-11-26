@@ -1,5 +1,5 @@
 # 8DX-Lounge.OBS-Overlay
-OBS等の配信ツールでブラウザソースを利用し、MK8DX 150cc Lounge の Stats を表示する配信者向けのオーバーレイです。配信上でラウンジの戦績をリスナーとリアルタイムで共有できたり、アーカイブ上に記録として残せたら面白いかもしれないという思いで作りました。もちろん、限定公開や録画だけの環境でも活用できると思います。環境によっては、フォントが見づらい等の不具合があるかもしれません。オーバーレイのフォントはデフォルトで [Noto Sans/Regular-400](https://github.com/googlefonts/noto-fonts/blob/main/hinted/ttf/NotoSans/NotoSans-Regular.ttf) を使用しています。(もし見づらかったら、CSS弄ってください。) 本アプリケーションは [Vercel](https://vercel.com/) に デプロイしてありますが、基本的にSSRしているため応答速度が遅い場合があるかもしれません。(CDNキャッシュはある程度設定しています。)
+OBS等の配信ツールでブラウザソースを利用し、MK8DX 150cc Lounge の Stats を表示する配信者向けのオーバーレイです。配信上でラウンジの戦績をリスナーとリアルタイムで共有できたり、アーカイブ上に記録として残せたら面白いかもしれないという発想から作りました。もちろん、限定公開や録画だけの環境でも活用できると思います。環境によっては、フォントが見づらい等の不具合があるかもしれません。オーバーレイのフォントはデフォルトで [Noto Sans/Regular-400](https://github.com/googlefonts/noto-fonts/blob/main/hinted/ttf/NotoSans/NotoSans-Regular.ttf) を使用しています。(もし見づらかったら、CSS弄ってください。) 本アプリケーションは [Vercel](https://vercel.com/) に デプロイしてありますが、基本的にSSRしているため応答速度が遅い場合があるかもしれません。(CDNキャッシュはある程度設定しています。)
 
 ## 使い方
 OBSでブラウザソースに https://8dxlounge-obs-overlay.vercel.app/overlay/(ラウンジのプレイヤー名)/(シーズン) を貼り付け、幅300 高さ800 を指定します。
