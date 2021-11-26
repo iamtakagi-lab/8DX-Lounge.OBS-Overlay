@@ -58,7 +58,7 @@ type PlayerDetails = {
 const getPlayerDetails = (name: string, season: number) => new Promise<PlayerDetails | null>(async (resolve) => {
     const url = `${endpoint}/player/details?name=${name}&season=${season}`;
     try {
-        got<PlayerDetails>(url, {
+        got<PlayerDetails | null>(url, {
             responseType: "json",
             headers: {
                 "User-Agent": userAgent,
