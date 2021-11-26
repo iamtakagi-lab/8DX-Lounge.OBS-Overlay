@@ -183,10 +183,10 @@ router.get("/overlay/:name/:season", async (ctx, next) => {
         <link rel="stylesheet" href="/static/style.css" />
         <title>{name} | MK8DX-Lounge.OBS-Overlay</title>
         <meta name="twitter:card" content="summary" />
-        <meta property="og:title" content={`${name} | lounge-obs-overlay`} />
+        <meta property="og:title" content={`${name} | MK8DX-Lounge.OBS-Overlay`} />
         <meta
           property="og:description"
-          content={`${name} | lounge-obs-overlay`}
+          content={`${name} | MK8DX-Lounge.OBS-Overlay`}
         />
         {/* 10分毎に自動リロード */}
         <meta httpEquiv="refresh" content="600" />
