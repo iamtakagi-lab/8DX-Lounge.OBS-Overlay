@@ -12,7 +12,7 @@ const app = new Koa();
 const router = new Router();
 
 const endpoint = "https://www.mk8dx-lounge.com/api" as const
-const userAgent = `${process.env.npm_package_name}/${process.env.npm_package_version} (+https://github.com/iamtakagi/8dx-lounge.obs-overlay)` as const
+const userAgent = `${process.env.npm_package_name}/${process.env.npm_package_version} (+https://github.com/iamtakagi/8DX-Lounge.OBS-Overlay)` as const
 
 type PlayerDetails = {
     playerId: number
