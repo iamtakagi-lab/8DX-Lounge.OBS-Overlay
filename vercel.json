@@ -1,0 +1,19 @@
+{
+    "version": 2,
+    "routes": [
+      { "handle": "filesystem" },
+      { "src": "/(.*)", "dest": "src/index.tsx" }
+    ],
+    "builds": [
+      { "src": "src/index.tsx", "use": "@vercel/node" },
+      { "src": "static/*", "use": "@vercel/static" }
+    ],
+    "env": {
+      "YARN_NODE_LINKER": "node-modules"
+    },
+    "build": {
+      "env": {
+        "YARN_NODE_LINKER": "node-modules"
+      }
+    }
+  }

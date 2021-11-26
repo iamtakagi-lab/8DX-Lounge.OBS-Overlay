@@ -1,0 +1,25 @@
+{
+  "name": "8dx-lounge.obs-overlay",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "author": "iamtakagi",
+  "license": "MIT",
+  "scripts": {
+    "dev": "tsc && node dist/index.js"
+  },
+  "dependencies": {
+    "@koa/router": "^10.1.1",
+    "got": "^11.8.3",
+    "koa": "^2.13.4",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "transform-ts": "^0.3.0"
+  },
+  "devDependencies": {
+    "@types/koa": "^2.13.4",
+    "@types/koa__router": "^8.0.10",
+    "@types/react": "^17.0.37",
+    "@types/react-dom": "^17.0.11",
+    "typescript": "^4.5.2"
+  }
+}
