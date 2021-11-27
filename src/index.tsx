@@ -168,7 +168,7 @@ router.get("/", async (ctx, next) => {
       </body>
     </html>
   );
-  // 1日キャッシュ
+  // 1日CDNキャッシュ
   ctx.set("Cache-Control", "s-maxage=86400");
 });
 
@@ -199,7 +199,7 @@ router.get("/overlay/:name/:season", async (ctx, next) => {
       </body>
     </html>
   );
-  // 10分キャッシュ
+  // 10分CDNキャッシュ
   ctx.set("Cache-Control", "s-maxage=600");
 });
 
